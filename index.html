@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pengisian</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <img src="img/abi.png" alt="">
+            </div>
+
+    <section class="contact" id="contact">
+        <div class="overlay">
+            <div class="container">
+                <h2>Mohon isi dengan benar</h2>
+                
+
+                <form action="https://formspree.io/f/moqrorvl" method="POST">
+                    <input type="text" name="Nama" placeholder="Nama" required>
+                    <input type="text" name="Produk" placeholder="Produk" required>
+                    <input type="text" name="Nominal" placeholder="Nominal" required>
+                    <input type="text" name="Nomor/ID" placeholder="Nomor/ID" required>
+                    <label>Pembayaran</label>
+                    <select name="Pembayaran">
+                    <option value="Cash">Cash</option>
+                    <option value="Ngutang">Ngutang</option>
+                    <input type="text" name="Tanggal Bayar" placeholder="Tanggal Bayar" required>
+                    <input type="reset" value="Reset" class="reset">
+                    </select>                    
+                    <input type="submit" value="Beli" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
